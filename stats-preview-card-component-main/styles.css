@@ -39,10 +39,12 @@ body {
 
 main {
     background-color: hsl(244, 38%, 16%);
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
+    height:446px;
     border-radius: 10px;
     overflow: hidden;
+    justify-self: center;
     display: flex;
 }
 

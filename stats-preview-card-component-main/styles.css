@@ -1,0 +1,114 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    display: grid;
+    place-content: center;
+}
+
+main {
+    background-color: hsl(244, 38%, 16%);
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+.txt, .img {
+    max-width: 50%;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+h1 {
+    font-family: inter, 'san-serif';
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: Lexend Deca, 'san-serif';
+    font-weight: 400;
+    font-size: 1rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.body-txt {
+    margin-bottom: 80px;
+}
+
+.counts {
+    display: flex;
+    column-gap: 40px;
+}
+
+.count {
+    display: flex;
+    flex-direction: column;
+    font-family: Lexend Deca, 'san-serif';
+}
+
+.counth {
+    font-family: inter;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.img {
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: hsl(277, 64%, 61%, 0.3);
+    z-index: 1;
+}
